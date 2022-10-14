@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/uniManagerTray">
+        <file>image/tray_nomal.png</file>
+        <file>image/tray_nomal@2x.png</file>
+        <file>image/tray_unusual.png</file>
+        <file>image/tray_unusual@2x.png</file>
+        <file>KUniSecService.qss</file>
+    </qresource>
+</RCC>

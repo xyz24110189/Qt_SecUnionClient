@@ -1,0 +1,13 @@
+要求： Qt5.6.3 安装， 并设置 QTDIR  环境变量
+
+windows 平台编译：
+1、mkdir build
+2、cd build
+3、cmake -G "Visual Studio 14" -T v140_xp ..
+4、make
+
+unix平台编译：<根据unix 平台架构不同增加对应编译宏控制 (CENTOS、UBUNTU、LOONGSON、KYLIN) >
+1、mkdir build
+2、cd build
+3、cmake  -DUBUNTU ..
+4、make
